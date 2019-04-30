@@ -1,5 +1,0 @@
-entity.publisher.add_form:
-  route_name: entity.publisher.add_form
-  title: 'Add Publisher'
-  appears_on:
-    - entity.publisher.collection
