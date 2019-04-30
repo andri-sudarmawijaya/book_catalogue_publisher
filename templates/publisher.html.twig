@@ -1,0 +1,22 @@
+{#
+/**
+ * @file publisher.html.twig
+ * Default theme implementation to present Publisher data.
+ *
+ * This template is used when viewing Publisher pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_publisher()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('publisher') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

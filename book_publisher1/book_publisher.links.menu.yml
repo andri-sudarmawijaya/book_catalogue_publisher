@@ -1,0 +1,14 @@
+
+# Publisher menu items definition
+entity.publisher.collection:
+  title: 'Publisher list'
+  route_name: entity.publisher.collection
+  description: 'List Publisher entities'
+  parent: system.admin_structure
+  weight: 100
+
+publisher.admin.structure.settings:
+  title: 'Publisher settings'
+  description: 'Configure Publisher entities'
+  route_name: publisher.settings
+  parent: system.admin_structure

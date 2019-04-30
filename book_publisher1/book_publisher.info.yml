@@ -1,0 +1,7 @@
+name: 'Book Publisher'
+type: module
+description: 'Manage publisher for book catalogue'
+core: 8.x
+package: 'Book Catalogue'
+dependencies:
+  - book_catalogue

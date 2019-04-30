@@ -1,0 +1,19 @@
+add publisher entities:
+  title: 'Create new Publisher entities'
+
+administer publisher entities:
+  title: 'Administer Publisher entities'
+  description: 'Allow to access the administration form to configure Publisher entities.'
+  restrict access: true
+
+delete publisher entities:
+  title: 'Delete Publisher entities'
+
+edit publisher entities:
+  title: 'Edit Publisher entities'
+
+view published publisher entities:
+  title: 'View published Publisher entities'
+
+view unpublished publisher entities:
+  title: 'View unpublished Publisher entities'
