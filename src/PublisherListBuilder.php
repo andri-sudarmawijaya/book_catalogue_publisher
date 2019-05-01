@@ -31,7 +31,7 @@ class PublisherListBuilder extends EntityListBuilder {
     $row['id'] = $entity->id();
     $row['name'] = Link::createFromRoute(
       $entity->label(),
-      'entity.publisher.edit_form',
+      'entity.publisher.canonical',
       ['publisher' => $entity->id()]
     );
     return $row + parent::buildRow($entity);
